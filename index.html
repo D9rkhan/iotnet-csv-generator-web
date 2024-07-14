@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Iotnet CSV Generator</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="img/favicon.ico" type="image/x-icon">
+</head>
+<body>
+    <h1 id="header">Iotnet CSV Generator</h1>
+    <div id="mode-selection">
+        <button onclick="selectMode('otaa')">OTAA</button>
+        <button onclick="selectMode('abp')">ABP</button>
+        <button onclick="selectMode('delete')">Удаление</button>
+        <button onclick="selectMode('instruction')">Инструкция</button>
+        <a href="http://10.10.12.247" class="main-button">Главная</a>
+    </div>
+    <div id="form-container"></div>
+    <footer class="footer">
+        <div class="footer-content">
+            <span>© Astel IoT Iotnet CSV Generator 2023 - 2024</span>
+        </div>
+    </footer>
+
+    <script src="scripts/script.js"></script>
+</body>
+</html>
